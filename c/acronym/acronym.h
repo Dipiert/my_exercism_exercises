@@ -1,0 +1,2 @@
+char* abbreviate(char* phrase);
+
