@@ -1,8 +1,9 @@
 #include "acronym.h"
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include <ctype.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
 
 char* abbreviate(char* str) {
     if (!str || strlen(str) == 0) return NULL;
